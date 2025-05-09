@@ -8,7 +8,7 @@ from export_predictions import export_to_csv
 if __name__ == '__main__'
     run_daily_predictions()
     export_to_csv()
-name: Run Apex Arc 
+name: Run Apex Arc
 
 on:
   workflow_dispatch: {}
